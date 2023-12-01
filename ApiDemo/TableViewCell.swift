@@ -9,15 +9,19 @@ import UIKit
 
 class TableViewCell: UITableViewCell {
 
+    @IBOutlet weak var phonePrice: UILabel!
+    
+    @IBOutlet weak var phoneDesc: UILabel!
+    
+    @IBOutlet weak var phoneTitle: UILabel!
+    
+    @IBOutlet weak var phoneImg: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
 
 }

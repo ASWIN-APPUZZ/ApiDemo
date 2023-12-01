@@ -16,6 +16,8 @@
 		CEAD70862B187E3E007843B4 /* ApiDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD70852B187E3E007843B4 /* ApiDemoTests.swift */; };
 		CEAD70902B187E3E007843B4 /* ApiDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD708F2B187E3E007843B4 /* ApiDemoUITests.swift */; };
 		CEAD70922B187E3E007843B4 /* ApiDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD70912B187E3E007843B4 /* ApiDemoUITestsLaunchTests.swift */; };
+		CEAD709F2B1880F4007843B4 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD709E2B1880F4007843B4 /* TableViewCell.swift */; };
+		CEAD70A12B1881BF007843B4 /* PhoneApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD70A02B1881BF007843B4 /* PhoneApi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		CEAD708B2B187E3E007843B4 /* ApiDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApiDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEAD708F2B187E3E007843B4 /* ApiDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiDemoUITests.swift; sourceTree = "<group>"; };
 		CEAD70912B187E3E007843B4 /* ApiDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CEAD709E2B1880F4007843B4 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		CEAD70A02B1881BF007843B4 /* PhoneApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneApi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +106,9 @@
 				CEAD706E2B187E3D007843B4 /* AppDelegate.swift */,
 				CEAD70702B187E3D007843B4 /* SceneDelegate.swift */,
 				CEAD70722B187E3D007843B4 /* ViewController.swift */,
+				CEAD70A02B1881BF007843B4 /* PhoneApi.swift */,
 				CEAD70742B187E3D007843B4 /* Main.storyboard */,
+				CEAD709E2B1880F4007843B4 /* TableViewCell.swift */,
 				CEAD70772B187E3E007843B4 /* Assets.xcassets */,
 				CEAD70792B187E3E007843B4 /* LaunchScreen.storyboard */,
 				CEAD707C2B187E3E007843B4 /* Info.plist */,
@@ -258,7 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEAD70A12B1881BF007843B4 /* PhoneApi.swift in Sources */,
 				CEAD70732B187E3D007843B4 /* ViewController.swift in Sources */,
+				CEAD709F2B1880F4007843B4 /* TableViewCell.swift in Sources */,
 				CEAD706F2B187E3D007843B4 /* AppDelegate.swift in Sources */,
 				CEAD70712B187E3D007843B4 /* SceneDelegate.swift in Sources */,
 			);

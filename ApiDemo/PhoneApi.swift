@@ -6,3 +6,14 @@
 //
 
 import Foundation
+
+struct PhoneApi: Codable{
+    var products: [Products]
+}
+    
+struct Products: Codable{
+    var title: String?
+    var description: String?
+    var price: Int?
+    var thumbnail: String?
+}
